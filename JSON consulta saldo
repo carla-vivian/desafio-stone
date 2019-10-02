@@ -1,0 +1,12 @@
+{
+  "object": "balance",
+  "blocked_balance": {
+    "amount": 9998
+  },
+  "sheduled_balance": {
+    "amount": 9998
+  },
+  "available": {
+    "amount": 9998
+  }
+}
