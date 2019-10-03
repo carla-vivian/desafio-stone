@@ -1,0 +1,26 @@
+{
+  "account":{
+    "institution": string,
+    "institution_name": string,
+    "account_code": string,
+    "branch_code": string
+  },
+  "entity":{
+    "name": string,
+    "document": string,
+    "document_type": string
+  }
+}
+
+{
+  "object": "balance",
+  "operation": "debit",
+            "operation_amount": 1600,
+            "operation_id": "4aab75b9-c15f-4d
+  },
+  "available": {
+    "amount": 100
+  }
+}
+
+
