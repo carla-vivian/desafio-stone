@@ -1,0 +1,44 @@
+{
+  "object": "bank_account",
+  "id": 001,
+  "bank_code": "000",
+  "agencia": "00000",
+  "agencia_dv": "2",
+  "conta": "58859",
+  "conta_dv": "00",
+  "type": "conta_corrente",
+  "document_type": "cpf",
+  "document_number": "03602396681",
+  "legal_name": "nome3",
+  "charge_transfer_fees": true,
+  "date_created": "2019-10-02"
+}
+
+
+{
+  "balance_before": integer,
+  "balance_after": integer,
+  "amount": integer,
+  "fee_amount": integer,
+  "operation_amount": integer,
+  "created_at": string,
+  "id": string,
+  "operation_id": string,
+  "operation": string,
+  "description": string | null,
+  "type": string,
+  "counter_party":{
+    "account":{
+      "institution": string,
+      "institution_name": string,
+      "account_code": string,
+      "branch_code": string
+    },
+    "entity":{
+      "name": string,
+      "document": string,
+      "document_type": string
+    }
+  },
+  "status": string
+}
